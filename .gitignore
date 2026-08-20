@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-ssr/
+
+# env files (never commit secrets — DB creds, JWT secret, etc.)
+.env
+.env.*
+!.env.example
+
+*.log
+logs/
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
